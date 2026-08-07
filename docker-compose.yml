@@ -1,0 +1,12 @@
+services:
+  wizarr:
+    container_name: wizarr
+    image: ghcr.io/wizarrrr/wizarr:latest
+    ports:
+      - "5690:5690"
+    volumes:
+      - ./data:/data
+    environment:
+      - TZ=America/New_York
+      - DISABLE_BUILTIN_AUTH=false
+    restart: unless-stopped
