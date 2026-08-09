@@ -7,9 +7,12 @@ Wizarr is a self-hosted tool that automates and simplifies inviting new users to
 ## Prerequisites
 
 Ensure the following tools are installed before setup:
-* Docker Desktop (must be running on Windows/Mac/Linux)
+* Docker
 * Git
 * Python 3.8+
+
+I am not the creator of Wizarr. Credit to [mtthidoteu](https://github.com/mtthidoteu) for Wizarr software.<br>
+Documentation for Wizarr can be found [here](https://github.com/wizarrrr/wizarr).
 
 ---
 
